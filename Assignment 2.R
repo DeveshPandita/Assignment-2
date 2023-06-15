@@ -1,6 +1,6 @@
 
 
-                                  ####    Assignment 2    ####
+                                                          ####    Assignment 2    ####
 
 
 ## <a> ##  
@@ -27,11 +27,11 @@ plot(iris$Sepal.Length, iris$Petal.Length,
      xlab = "# ", ylab = "", col=iris$Species)
 legend("bottomright", pch = 16, col = c(1,2,3),
        legend = c("Setosa", "Versicolor", "Virginica"))
-#From the scatterplot, we can observe that the three species of iris (setosa, versicolor, and virginica)
-#are fairly distinguishable based on their Sepal.Length and Petal.Length measurements. Setosa generally
-#has shorter Sepal.Length and smaller Petal.Length compared to the other two species. Versicolor tends
-#to have intermediate values for both Sepal.Length and Petal.Length. Virginica typically has longer
-#Sepal.Length and larger Petal.Length compared to the other species.
+# From the scatterplot, we can observe that the three species of iris (setosa, versicolor, and virginica)
+# are fairly distinguishable based on their sepal length and petal length measurements. Setosa generally
+# has shorter sepal length and smaller petal length compared to the other two species. Versicolor tends
+# to have intermediate values for both sepal length and petal length. Virginica typically has longer
+# sepal length and larger petal length compared to the other species.
 
 
 ## <b> ##
@@ -106,7 +106,7 @@ calculate_average_days <- function(n_simulations) {
       selected_tablet <- sample(bottle, 1)
       
       if (selected_tablet == 1) {
-        # If it's a half-tablet, break the loop
+        # If it's a half-tablet, breaking the loop
         break
       } else {
         # If it's a whole tablet, cutting it in half and putting the remaining half back in the bottle
